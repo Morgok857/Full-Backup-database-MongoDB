@@ -1,0 +1,16 @@
+[GENERAL]
+Temp_dir=tmp
+Backup_dir=backup-mongodb
+Default_bkp_name=mongodb
+
+[DB]
+DB_Host=127.0.0.1
+DB_Port=27017
+DB_Name=mongodb
+DB_User=mongodb
+DB_Password=mongodb-pass
+DB_AuthenticationDatabase=admin
+
+[LOG]
+Log_name=backup.log
+Log_level=INFO
